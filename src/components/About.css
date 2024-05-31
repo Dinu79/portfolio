@@ -1,0 +1,52 @@
+/* About.css */
+.about {
+  padding: 50px 20px;
+  background: #121212; /* Match the dark theme background */
+  animation: slideIn 2s ease-in-out;
+  color: #ffffff; /* Light color for text */
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  color: #ffffff; /* Light color for heading */
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-content img {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #1e90ff; /* Add a border to the profile image */
+  transition: transform 0.3s ease;
+}
+
+.about-content img:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.about-content div {
+  max-width: 600px;
+  text-align: center;
+}
+
+.about-content p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #c0c0c0; /* Slightly lighter shade for paragraph text */
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

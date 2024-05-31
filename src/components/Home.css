@@ -1,0 +1,28 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('../assets/background-image.jpg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+}
+
+.home-content h1 {
+  font-size: 3em;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.home-content p {
+  font-size: 1.5em;
+  animation: fadeIn 3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

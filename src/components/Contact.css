@@ -1,0 +1,68 @@
+/* Contact.css */
+.contact {
+  padding: 50px 20px;
+  background: #121212; /* Match the dark theme background */
+  animation: fadeIn 2s ease-in-out;
+  color: #ffffff; /* Light color for text */
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  color: #ffffff; /* Light color for heading */
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact label {
+  font-size: 1.1em;
+  color: #c0c0c0; /* Slightly lighter shade for labels */
+}
+
+.contact input,
+.contact textarea {
+  padding: 10px;
+  font-size: 1em;
+  color: #ffffff;
+  background: #1f1f1f; /* Dark background for input fields */
+  border: 1px solid #444;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  border-color: #1e90ff; /* Highlight border on focus */
+  outline: none;
+}
+
+.contact button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: #ffffff;
+  background: #1e90ff; /* Button background color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+  background-color: #1c86ee; /* Slightly darker shade on hover */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
